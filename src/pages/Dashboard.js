@@ -20,18 +20,18 @@ function Dashboard() {
 
       
        <Container >
-           <div >
+           <div style={{'marginTop':'50px'}}>
       <Row xs={2} md={2} lg={8} style={{'backgroundColor':'white'}} >
        <Col>
    
     <span style={{'fontSize':'20px'}}>Application-Recent</span> 
-    <Button variant="info" style={{'backgroundcolor':'#66D6FF','margin-left':'200px'}}>View all</Button>
+    <Button variant="info" href="/allapplications" style={{'backgroundcolor':'#66D6FF','margin-left':'200px'}}>View all</Button>
     <hr style={{'width':'450px'}} />
     
   
     </Col>
     <Col><span style={{'fontSize':'20px'}}>Shopify Stores-Recent</span>
-    <Button variant="info" style={{'backgroundcolor':'#66D6FF','margin-left':'200px'}}>View all</Button>
+    <Button variant="info" href="/allshopifystores" style={{'backgroundcolor':'#66D6FF','margin-left':'200px'}}>View all</Button>
     <hr style={{'width':'483px'}} />
     </Col>
   </Row>
@@ -39,36 +39,36 @@ function Dashboard() {
   <Row style={{'backgroundColor':'white'}}>
           <Col>
             Application Name
-            <Button variant="outline-secondary" style={{'margin-left':'265px'}}> Edit </Button>
+            <Button variant="outline-secondary" style={{'margin-left':'240px',width:'80px'}}> Edit </Button>
             <hr style={{'width':'450px'}}/>
           </Col>
           <Col>
             Store Name
-            <Button variant="outline-secondary" style={{'margin-left':'338px'}}>Edit</Button>
+            <Button variant="outline-secondary" style={{'margin-left':'313px',width:'80px'}}>Edit</Button>
             <hr style={{'width':'482px'}} />
           </Col>
         </Row>
         <Row style={{'backgroundColor':'white'}}>
           <Col>
             Application Name
-            <Button variant="outline-secondary" style={{'margin-left':'265px'}}> Edit </Button>
+            <Button variant="outline-secondary" style={{'margin-left':'240px',width:'80px'}}> Edit </Button>
             <hr style={{'width':'450px'}}/>
           </Col>
           <Col>
             Store Name
-            <Button variant="outline-secondary" style={{'margin-left':'338px'}}>Edit</Button>
+            <Button variant="outline-secondary" style={{'margin-left':'313px',width:'80px'}}>Edit</Button>
             <hr style={{'width':'482px'}} />
           </Col>
         </Row>
         <Row style={{'backgroundColor':'white'}}>
           <Col>
             Application Name
-            <Button variant="outline-secondary" style={{'margin-left':'265px'}}> Edit </Button>
+            <Button variant="outline-secondary" style={{'margin-left':'240px',width:'80px'}}> Edit </Button>
             <hr style={{'width':'450px'}}/>
           </Col>
           <Col>
             Store Name
-            <Button variant="outline-secondary" style={{'margin-left':'338px'}}>Edit</Button>
+            <Button variant="outline-secondary" style={{'margin-left':'313px',width:'80px'}}>Edit</Button>
             <hr style={{'width':'482px'}} />
           </Col>
         </Row>
@@ -78,11 +78,11 @@ function Dashboard() {
         <Row style={{'backgroundColor':'white'}}>
             <Col>
           <span style={{'fontSize':'20px'}}>Authentication Providers-Recent</span>
-          <Button  variant="info" style={{'backgroundcolor':'#66D6FF','margin-left':'85px'}}>View all</Button>
+          <Button  variant="info" href="/allauthenticationproviders" style={{'backgroundcolor':'#66D6FF','margin-left':'85px'}}>View all</Button>
          <hr style={{'width':'455px'}} />
     </Col>
     <Col><span style={{'fontSize':'20px'}}>Providers-Recent</span>
-    <Button variant="info" style={{'backgroundcolor':'#66D6FF','margin-left':'245px'}}>View all</Button>
+    <Button variant="info" href="/allproviders" style={{'backgroundcolor':'#66D6FF','margin-left':'245px'}}>View all</Button>
     <hr style={{'width':'483px'}} />
     </Col>
   </Row>
@@ -90,36 +90,36 @@ function Dashboard() {
   <Row style={{'backgroundColor':'white'}}>
           <Col>
             Authenticationprovider Name
-            <Button variant="outline-secondary" style={{'margin-left':'182px'}}> Edit </Button>
+            <Button variant="outline-secondary" style={{'margin-left':'157px',width:'80px'}}> Edit </Button>
             <hr style={{'width':'450px'}}/>
           </Col>
           <Col>
             Provider Name
-            <Button variant="outline-secondary" style={{'margin-left':'315px'}}>Edit</Button>
+            <Button variant="outline-secondary" style={{'margin-left':'290px',width:'80px'}}>Edit</Button>
             <hr style={{'width':'482px'}} />
           </Col>
         </Row>
         <Row style={{'backgroundColor':'white'}}>
           <Col>
             Authenticationprovider Name
-            <Button variant="outline-secondary" style={{'margin-left':'183px'}}> Edit </Button>
+            <Button variant="outline-secondary" style={{'margin-left':'157px',width:'80px'}}> Edit </Button>
             <hr style={{'width':'450px'}}/>
           </Col>
           <Col>
             Provider Name
-            <Button variant="outline-secondary" style={{'margin-left':'315px'}}>Edit</Button>
+            <Button variant="outline-secondary" style={{'margin-left':'290px',width:'80px'}}>Edit</Button>
             <hr style={{'width':'482px'}} />
           </Col>
         </Row>
         <Row style={{'backgroundColor':'white'}}>
           <Col>
             Authenticationprovider Name
-            <Button variant="outline-secondary" style={{'margin-left':'183px'}}> Edit </Button>
+            <Button variant="outline-secondary" style={{'margin-left':'157px',width:'80px'}}> Edit </Button>
             <hr style={{'width':'450px'}}/>
           </Col>
           <Col>
             Provider Name
-            <Button variant="outline-secondary" style={{'margin-left':'315px'}}>Edit</Button>
+            <Button variant="outline-secondary" style={{'margin-left':'290px',width:'80px'}}>Edit</Button>
             <hr style={{'width':'482px'}} />
           </Col>
         </Row>

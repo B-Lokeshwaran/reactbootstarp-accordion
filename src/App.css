@@ -11,9 +11,9 @@ h3 {
   margin-left: 80px;
 }
 
-#root>div>div>div>div>div:nth-child(2)>div:nth-child(2)>div {
-  /* font-weight: bold; */
-}
+/* #root>div>div>div>div>div:nth-child(2)>div:nth-child(2)>div {
+  font-weight: bold;
+} */
 
 #root>div>div>div>div>div:nth-child(3)>div:nth-child(2)>div {
   font-weight: bold;
@@ -155,8 +155,10 @@ h3 {
 }
 .applications {
   /* display: flex; */
-  margin-left: 350px;
+  margin-left: 320px;
   margin-top: -800px;
+  
+  
 }
 .all-applications{
   /* display: flex; */
@@ -171,8 +173,9 @@ h3 {
 
 .shopifystores {
   /* display: flex; */
-  margin-left: 350px;
+  margin-left: 330px;
   margin-top: -800px;
+  
 }
 
 .all-shopifystores {
@@ -200,6 +203,7 @@ h3 {
   /* display: flex; */
   margin-left: 350px;
   margin-top: -800px;
+  
 }
 .providers {
   /* display: flex; */
@@ -221,46 +225,141 @@ h3 {
 }
 .buttonapp{
   width:100px;
+  margin-left: 10px;
   
 }
 .inputstyle{
   margin-left:380px;
+  height:45px;
+  width:350px;
+  font-size:23px; 
 }
 .line2{
   width:99%;
 }
 .buttonapp1{
   width:95px;
+  margin-left: 10px;
   
 }
 .inputstyle1{
   margin-left:340px;
+  height:45px;
+  width:350px;
+  font-size:23px;
 }
 
 .line3{
-  width:100%;
+  width:99%;
 }
 .buttonapp2{
   width:90px;
+  margin-left: 10px;
   
 }
 .inputstyle2{
   margin-left:230px;
+  height:45px;
+  width:350px;
+  font-size:23px;
 }
 
 .line4{
-  width:100%;
+  width:90%;
 }
 .buttonapp3{
   width:90px;
+  margin-left: 10px;
   
 }
 .inputstyle3{
   margin-left:450px;
+  height:45px;
+  width:350px;
+  font-size:23px;
 }
 .btn1{
   color:#66D6FF;
 }
 .btn2{
   color:#66D6FF;
+}
+
+#root > div > div.sidebar > div > div > div:nth-child(2) > div:nth-child(2) > div > a{
+  font-weight: bold;
+}
+#root > div > div.applications > div.table-responsive-lg > table > tbody > tr:nth-child(1) > td.pt-3 > a{
+  color: black !important;
+}
+#root > div > div.applications > div.table-responsive-lg > table > tbody > tr:nth-child(2) > td.pt-3 > a{
+  color:black !important;
+}
+
+#root > div > div.applications > div.table-responsive-lg > table > tbody > tr:nth-child(3) > td.pt-3 > a{
+  color:black !important;
+}
+
+#root > div > div.applications > div.table-responsive-lg > table > tbody > tr:nth-child(4) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.applications > div.table-responsive-lg > table > tbody > tr:nth-child(5) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.applications > div.table-responsive-lg > table > tbody > tr:nth-child(6) > td.pt-3 > a{
+  color:black !important;
+}
+
+#root > div > div.shopifystores > div.table-responsive-lg > table > tbody > tr:nth-child(1) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.shopifystores > div.table-responsive-lg > table > tbody > tr:nth-child(2) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.shopifystores > div.table-responsive-lg > table > tbody > tr:nth-child(3) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.shopifystores > div.table-responsive-lg > table > tbody > tr:nth-child(4) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.shopifystores > div.table-responsive-lg > table > tbody > tr:nth-child(5) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.shopifystores > div.table-responsive-lg > table > tbody > tr:nth-child(6) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.authenticationproviders > div > table > tbody > tr:nth-child(1) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.authenticationproviders > div > table > tbody > tr:nth-child(2) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.authenticationproviders > div > table > tbody > tr:nth-child(3) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.authenticationproviders > div > table > tbody > tr:nth-child(4) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.authenticationproviders > div > table > tbody > tr:nth-child(5) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.authenticationproviders > div > table > tbody > tr:nth-child(6) > td.pt-3 > a{
+  color:black !important;
+}
+#root > div > div.providers > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.providers > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.providers > div > table > tbody > tr:nth-child(3) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.providers > div > table > tbody > tr:nth-child(4) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.providers > div > table > tbody > tr:nth-child(5) > td:nth-child(1) > a{
+  color:black !important;
+}
+#root > div > div.providers > div > table > tbody > tr:nth-child(6) > td:nth-child(1) > a{
+  color:black !important;
 }

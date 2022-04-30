@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, Col, Row,Table,Container,Form } from "react-bootstrap";
+import { Button,Table,Form, Nav } from "react-bootstrap";
+
 
 
 
@@ -10,91 +11,110 @@ export const Applications1 = () => {
 <p style={{'fontSize':"35px"}}>
     <span>
     <img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/Group 203.png')}alt='logo' style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>Applications
-    <Button variant="info" className="buttonapp">Add new</Button>
+    <Button variant="info" className="buttonapp" href="/addnewapp"> Add new</Button>
           <input type="search" placeholder="Search" className="inputstyle" />
-  
+         
     
     </span>
     <hr className="line1"/>
     </p>
     </div>
-    <Table responsive="lg">
-    <thead>
-      <tr>
+
+    
+    <Table responsive="lg" >
+    <thead >
+      <tr >
         
-        <th>Name</th>
-        <th>ID</th>
-        <th>Client ID</th>
-        <th>Client Secret</th>
-        <th>Redirected URIs</th>
-        <th>State</th>
+        <th className="p-3"><u style={{'text-decoration-color': '#66D6FF'}}>Name</u></th>
+        <th className="p-3">ID</th>
+        <th className="p-3">Client ID</th>
+        <th className="p-3">Client Secret</th>
+        <th className="p-3">Redirected URIs</th>
+        <th className="p-3">State</th>
         
       </tr>
     </thead>
     <tbody>
+      
+     
+      <tr >
+          
+        <td style={{fontWeight:'bold',color:'black'}} className="pt-3"><Nav.Link href='/applications/viewapp'>Application Name</Nav.Link> </td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">https://umusic.com</td>
+        <td className="p-3">State</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" href="/addnewapp" style={{width:'80px'}}>Edit</Button>
+        </td>
+        
+      </tr>
+      
+     
       <tr>
-       
-        <td>Application Name</td>
-        <td>8891</td>
-        <td>8891</td>
-        <td>8891</td>
-        <td>https://umusic.com</td>
-        <td>State</td>
-        <Button variant="outline-secondary">Edit</Button>
+       <td style={{'font-weight':'bold',color:'black'}} className="pt-3"><Nav.Link href='/applications/viewapp'>Application Name</Nav.Link></td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">https://umusic.com</td>
+        <td className="p-3"> State</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
         
-        <td>Application Name</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>https://umusic.com</td>
-        <td>State</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td style={{'font-weight':'bold',color:'black'}} className="pt-3"><Nav.Link href='/applications/viewapp'>Application Name</Nav.Link></td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">https://umusic.com</td>
+        <td className="p-3">State</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}> Edit</Button>
+        </td>
       </tr>
       <tr>
         
-        <td>Application Name</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>https://umusic.com</td>
-        <td>State</td>
-        <Button variant="outline-secondary"> Edit</Button>
+        <td style={{'font-weight':'bold',color:'black'}} className="pt-3"><Nav.Link href='/applications/viewapp'>Application Name</Nav.Link></td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">https://umusic.com</td>
+        <td className="p-3">State</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
         
-        <td>Application Name</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>https://umusic.com</td>
-        <td>State</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td style={{'font-weight':'bold',color:'black'}}className="pt-3"><Nav.Link href='/applications/viewapp'>Application Name</Nav.Link></td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">https://umusic.com</td>
+        <td className="p-3">State</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
         
-        <td>Application Name</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>https://umusic.com</td>
-        <td>State</td>
-        <Button variant="outline-secondary">Edit</Button>
-      </tr>
-      <tr>
-        
-        <td>Application Name</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>8876</td>
-        <td>https://umusic.com</td>
-        <td>State</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td style={{'font-weight':'bold',color:'black'}} className="pt-3"><Nav.Link href='/applications/viewapp'>Application Name</Nav.Link></td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">8876</td>
+        <td className="p-3">https://umusic.com</td>
+        <td className="p-3">State</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
     </tbody>
   </Table>
 
+ 
    
  
         
@@ -118,7 +138,7 @@ export const AllApplications = () => {
 export const AddNewApp = () => {
     return(
         <div className="add-new-app">
-            <p style={{'fontSize':"35px"}}><img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/Group 203.png')} style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>
+            <p style={{'fontSize':"35px"}}><img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/Group 203.png')}alt='logo' style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>
             Edit Application
             <hr className="line1" /></p>
             <Form>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Row,Table,Form } from "react-bootstrap";
+import { Button,Table,Form,Nav } from "react-bootstrap";
 
 export const ShopifyStores = () => {
     return(
@@ -7,8 +7,8 @@ export const ShopifyStores = () => {
             <div>
             <p style={{'fontSize':"35px"}}>
                 <span>
-                <img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/icon.png')} style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>Shopify Stores
-                <Button variant="info" className="buttonapp1">Add new</Button>
+                <img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/icon.png')} alt='logo' style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>Shopify Stores
+                <Button variant="info" className="buttonapp1" href="/addnewshop" style={{'marginLeft':'10px'}}>Add new</Button>
           <input type="search" placeholder="Search" className="inputstyle1" />
           </span>
           <hr className="line2"/>
@@ -18,10 +18,10 @@ export const ShopifyStores = () => {
     <thead>
       <tr>
         
-        <th>Name</th>
-        <th>ID</th>
+      <th className="p-3"><u style={{'text-decoration-color': '#66D6FF'}}>Name</u></th>
+        <th className="p-3">ID</th>
         
-        <th>Secret</th>
+        <th className="p-3">Secret</th>
        
        
         
@@ -31,51 +31,63 @@ export const ShopifyStores = () => {
     <tbody>
       <tr>
        
-        <td>Store Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/shopifystores/viewshop'>Store Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" href="/addnewshop"style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
        
-        <td>Store Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/shopifystores/viewshop'>Store Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
        
-        <td>Store Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/shopifystores/viewshop'>Store Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
        
-        <td>Store Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/shopifystores/viewshop'>Store Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
        
-        <td>Store Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/shopifystores/viewshop'>Store Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
        
-        <td>Store Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/shopifystores/viewshop'>Store Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       </tbody>
     </Table>
@@ -94,7 +106,7 @@ export const AllShopifyStores = () => {
 export const AddNewShop = () => {
     return(
         <div className="add-new-shop">
-             <p style={{'fontSize':"35px"}}><img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/icon.png')} style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>
+             <p style={{'fontSize':"35px"}}><img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/icon.png')}alt='logo' style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>
             Edit Shopify Stores
             <hr className="line2" />
             </p>
@@ -120,7 +132,7 @@ export const AddNewShop = () => {
     <Button variant="outline-secondary" style={{'marginLeft':'500px','marginTop':'35px'}}> Cancel</Button>
   <Button variant="info" style={{'marginLeft':'621px','marginTop':'-65px'}}> save</Button>
 
-  
+
         </div>
     );
 };

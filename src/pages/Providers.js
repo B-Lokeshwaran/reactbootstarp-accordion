@@ -1,6 +1,6 @@
 import React from 'react'
-import {RiLock2Line} from 'react-icons/ri'
-import { Button, Col, Row,Table,Form } from "react-bootstrap";
+
+import { Button,Table,Form,Nav } from "react-bootstrap";
 
 export const Providers =() => {
     return(
@@ -9,7 +9,7 @@ export const Providers =() => {
               <span>
               <img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/lock.png')}alt='logo' style={{'marginRight':'10px', 'width':'40px','padding':'2px'}}/>
               Providers
-              <Button variant="info" className="buttonapp3">Add new</Button>
+              <Button variant="info" className="buttonapp3" href="/addnewpro">Add new</Button>
           <input type="search" placeholder="Search" className="inputstyle3" />
               </span>
               <hr className="line4"/>
@@ -18,10 +18,10 @@ export const Providers =() => {
     <thead>
       <tr>
         
-        <th >Name</th>
-        <th>ID</th>
+      <th className="p-3"><u style={{'text-decoration-color': '#66D6FF'}}>Name</u></th>
+        <th className="p-3">ID</th>
         
-        <th>Secret</th>
+        <th className="p-3">Secret</th>
        
        
         
@@ -31,51 +31,63 @@ export const Providers =() => {
     <tbody>
       <tr>
        
-        <td>Provider Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/providers/viewpro'>Provider Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" href="/addnewpro" style={{width:'80px'}}>Edit</Button>
+        </td>
       </tr>
       <tr>
        
-        <td>Provider Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/providers/viewpro'>Provider Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+      </td>
       </tr>
       <tr>
        
-        <td>Provider Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/providers/viewpro'>Provider Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+      </td>
       </tr>
       <tr>
        
-        <td>Provider Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/providers/viewpro'>Provider Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+      </td>
       </tr>
       <tr>
        
-        <td>Provider Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/providers/viewpro'>Provider Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+      </td>
       </tr>
       <tr>
        
-        <td>Provider Name</td>
-        <td>8891</td>
+        <td style={{'font-weight':'bold'}} className="p-3"><Nav.Link href='/providers/viewpro'>Provider Name</Nav.Link></td>
+        <td className="p-3">8891</td>
         
-        <td>Secret</td>
-        <Button variant="outline-secondary">Edit</Button>
+        <td className="p-3">Secret</td>
+        <td className="p-3">
+        <Button variant="outline-secondary" style={{width:'80px'}}>Edit</Button>
+      </td>
       </tr>
       </tbody>
     </Table>
@@ -95,7 +107,7 @@ export const AllProviders =() => {
 export const AddNewPro =() => {
     return(
         <div className="add-providers">
-             <p style={{'fontSize':"35px"}}><img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/lock.png')} style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>
+             <p style={{'fontSize':"35px"}}><img src={require('/Users/lokeshwaranbasha/Desktop/reactbootstrap sidebar/sidebar/src/Assests/lock.png')} alt='logo' style={{'marginRight':'10px', 'width':'45px','padding':'2px'}}/>
             Edit Provider
             <hr className="line4"/>
              </p>
