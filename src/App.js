@@ -17,7 +17,7 @@ function App() {
       <Router>
     <Sidebar/>
     <Routes>
-    <Route path='/dashboard' element={<Dashboard/>}/>
+    <Route path='/' element={<Dashboard/>}/>
       <Route path='/applications' element={<Applications1/>}/>
       <Route path='/allapplications' element={<Applications1/>}/>
       <Route path='/addnewapp' element={<AddNewApp/>}/>
