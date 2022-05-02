@@ -8,7 +8,7 @@ export default function Sidebar() {
     useEffect(() => {highLighter(location.pathname)}, [location])
     const [selectedSection, setSelectedSection] = useState('0')
     const highLighter = (path) => {
-    if(path === '/dashboard'){
+    if(path === '/'){
         setSelectedSection('0')
     }
     if(path === '/applications'){
